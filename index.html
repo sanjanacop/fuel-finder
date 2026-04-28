@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FuelFinder</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- App CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+ 
+<body>
+
+  <header>
+    <div>
+      <h1>⛽ FuelFinder</h1>
+      <p>Find the cheapest fuel near you</p>
+    </div>
+
+    <button id="themeToggle" class="theme-toggle">🌙 Dark</button>
+  </header>
+
+  <div class="search-container">
+    <input id="locationInput" placeholder="Enter Toronto postal code" />
+    <select id="fuelType">
+      <option value="petrol">Petrol</option>
+      <option value="diesel">Diesel</option>
+    </select>
+    <select id="distanceFilter">
+      <option value="5">Within 5 km</option>
+      <option value="10">Within 10 km</option>
+      <option value="15">Within 15 km</option>
+      <option value="999">15+ km (All)</option>
+    </select>
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <!-- SPLIT LAYOUT -->
+  <div class="layout">
+    <div id="results"></div>
+    <div id="map"></div>
+  </div>
+
+  <!-- App JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>

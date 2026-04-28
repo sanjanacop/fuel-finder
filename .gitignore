@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Node (if you ever add a build step)
+node_modules/
+package-lock.json
+
+# Environment variables (never commit these)
+.env
+
+# Local notes
+*.log
+*.code-workspace
