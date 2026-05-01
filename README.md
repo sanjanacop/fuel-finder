@@ -2,8 +2,6 @@
 
 A web app that helps you find the cheapest gas stations near you in the Toronto area.
 
-![FuelFinder Screenshot](screenshot.png)
-
 ## Features
 
 - 🗺️ **Interactive map** — powered by Leaflet + OpenStreetMap
@@ -70,7 +68,3 @@ open index.html
 - [ ] Directions / navigation link
 - [ ] Mobile-optimized layout improvements
 - [ ] Support for cities outside Toronto
-
-## License
-
-MIT — feel free to use and modify.
