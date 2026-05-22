@@ -1,16 +1,16 @@
-# ⛽ FuelFinder
+# FuelFinder
 
 A web app that helps you find the cheapest gas stations near you in the Toronto area.
 
 ## Features
 
-- 🗺️ **Interactive map** — powered by Leaflet + OpenStreetMap
-- 📍 **Postal code search** — enter any Toronto postal code to find nearby stations
-- ⛽ **Petrol & Diesel** — filter by fuel type
-- 📏 **Distance filter** — search within 5, 10, 15 km or beyond
-- ⭐ **Cheapest station highlight** — best deal is always clearly marked
-- 🌙 **Dark / Light theme** toggle
-- ⚡ **24-hour caching** — station data is cached in your browser so repeat searches are instant
+- **Interactive map** — powered by Leaflet + OpenStreetMap
+- **Postal code search** — enter any Toronto postal code to find nearby stations
+- **Petrol & Diesel** — filter by fuel type
+- **Distance filter** — search within 5, 10, 15 km or beyond
+- **Cheapest station highlight** — best deal is always clearly marked
+- **Dark / Light theme** toggle
+- **24-hour caching** — station data is cached in your browser so repeat searches are instant
 
 > **Note:** Gas prices shown are estimated based on brand and location. They are not real-time prices.
 
